@@ -1,16 +1,25 @@
 ---
-title: About me
-subtitle: Why you'd want to go on a date with me
-comments: false
+title: Sébastien Blin
+subtitle: Free software developer
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hi,
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+I'm Sébastien, a *FOSS* enthusiast. Currently Intern @ [ring.cx](https://ring.cx). I love robots, tech stuff and cold countries. I'm AmarOk (or AmarOk1412) sometimes on the Internet. And this is my [CV (fr)](/cv_ca.pdf) or [CV (en)](/cv_en.pdf).
 
-What else do you need?
+![](/img/about/me.jpg)
 
-### my history
+## Find me
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+- [Mail](mailto:contact@enconn.fr)
+- [Mastodon](http://mastodon.social/@amarok)
+- [Zeste De Savoir](https://zestedesavoir.com/membres/voir/AmarOk/)
+- [Twitter](http://twitter.com/AmarOk1412/)
+- [Github](https://github.com/AmarOk1412/)
+- [Ring](https://ring.cx): fenrir
+- IRC: AmarOk\` on freenode.
+- PGP: [0xC894BB01EEB2A9A9](http://pgp.mit.edu/pks/lookup?op=vindex&search=0xC894BB01EEB2A9A9)
+
+## Some links
+
+- [Lobste.rs](http://lobste.rs/)

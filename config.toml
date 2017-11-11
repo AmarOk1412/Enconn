@@ -26,12 +26,12 @@ pygmentCodeFences = true
 # Main
 [[menu.main]]
     name = "/dev"
-    url = ""
+    url = "dev/"
     weight = 1
 
 [[menu.main]]
     name = "/var/log"
-    url = ""
+    url = "logs/"
     weight = 2
 
 [[menu.main]]
@@ -40,8 +40,8 @@ pygmentCodeFences = true
     weight = 3
 
 # Sub
-[[menu.main]]
-    parent = "/dev"
-    name = "Tags"
-    url = "tags"
-    weight = 1
+# [[menu.main]]
+#    parent = "/dev"
+#    name = "Tags"
+#    url = "tags"
+#    weight = 1
