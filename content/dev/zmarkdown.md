@@ -11,7 +11,7 @@ ZMarkdown is the markdown engine used by [Zeste de Savoir](https://zestedesavoir
 
 # Why?
 
-Similar projects like Pandoc don't use AST to translate Markdown and they are difficult to improve with modules. Because *Remark* is extremely modulable and uses an AST, it's the best solution to craft a markdown engine to translate a custom markdown into any format (HTML, slides, PDF, generate Table Of Contents, generate man pages, etc).
+Similar projects don't use AST (like the previous iteration of [ZMarkdown](https://github.com/zestedesavoir/Python-ZMarkdown) to translate Markdown and they are difficult to improve with modules or translate in another text language. Because *Remark* is extremely modulable and uses an AST, it's the best solution to craft a markdown engine to translate a custom markdown into any format (HTML, slides, PDF, generate Table Of Contents, generate man pages, etc).
 
 # How it works?
 
