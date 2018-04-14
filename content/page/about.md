@@ -18,7 +18,7 @@ I'm Sébastien, a *FOSS* enthusiast. Currently Intern @ [ring.cx](https://ring.c
 - [Github](https://github.com/AmarOk1412/)
 - [Ring](https://ring.cx): fenrir
 - IRC: AmarOk\` on freenode.
-- PGP: [0xC894BB01EEB2A9A9](http://pgp.mit.edu/pks/lookup?op=vindex&search=0xC894BB01EEB2A9A9)
+- PGP: [0x631BF6FE23D3AC69 ](http://pgp.mit.edu/pks/lookup?op=vindex&search=0x631BF6FE23D3AC69)
 
 ## Some links
 
