@@ -65,5 +65,3 @@ Le jour 2 a été bien moins palpitant, mais les paysages ont été tout aussi e
   {{< figure src="/img/logs/quebec/roadtrip/jc18.jpg" caption="Roadtrip 2" >}}
   {{< figure src="/img/logs/quebec/roadtrip/jcpano.JPG" caption="Roadtrip 2" >}}
 {{< /gallery >}}
-
-<video src="/videos/roadtrip.webm" controls></video>

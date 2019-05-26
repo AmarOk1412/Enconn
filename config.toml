@@ -1,19 +1,22 @@
-baseurl = "https://enconn.fr"
-DefaultContentLanguage = "en"
+baseURL = "https://enconn.fr"
+languageCode = "en-us"
 title = "Enconn"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
 
+
 [Params]
-  subtitle = "Random tech stuff and travel logs"
+  subtitle = "A concentrate of random tech stuff, free software development and travel logs"
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
-  commit = true
+  commit = false
   rss = true
   comments = true
+  selfHosted = true
+  useHLJS = true
 
 [Author]
   name = "Sébastien Blin"
@@ -21,27 +24,15 @@ pygmentCodeFences = true
   email = "contact@enconn.fr"
   github = "AmarOk1412"
   twitter = "AmarOk1412"
-  #youtube = "user/username"
+  mastodon = "mastodon.social/@amarok"
 
-# Main
-[[menu.main]]
-    name = "/dev"
-    url = "dev/"
-    weight = 1
 
 [[menu.main]]
-    name = "/var/log"
+    name = "Logs"
     url = "logs/"
     weight = 2
 
 [[menu.main]]
-    name = "/usr"
-    url = "page/about/"
+    name = "About"
+    url = "about/"
     weight = 3
-
-# Sub
-# [[menu.main]]
-#    parent = "/dev"
-#    name = "Tags"
-#    url = "tags"
-#    weight = 1
