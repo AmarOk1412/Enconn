@@ -25,7 +25,7 @@ Even if the role is not up-to-date (last commit is from 2017), a [pull request](
 
 ```yml
 - name: Configure jitsi-meet server.
-  hosts: [server]
+  hosts: [conference]
   user: amarok
   vars:
     jitsi_meet_server_name: conference.facil.services
@@ -34,17 +34,35 @@ Even if the role is not up-to-date (last commit is from 2017), a [pull request](
     - role: thefinn93.letsencrypt
       become: yes
       letsencrypt_email: "webmaster@{{ jitsi_meet_server_name }}"
-      ssl_certificate: /etc/ssl/{{ jitsi_meet_server_name }}/server.cert
-      ssl_certificate_key: /etc/ssl/{{ jitsi_meet_server_name }}/server.key
       letsencrypt_cert_domains:
         - "{{ jitsi_meet_server_name }}"
       tags: letsencrypt
 
     - role: freedomofpress.jitsi-meet
-      jitsi_meet_ssl_cert_path: "/etc/ssl/{{ jitsi_meet_server_name }}/server.cert"
-      jitsi_meet_ssl_key_path: "/etc/ssl/{{ jitsi_meet_server_name }}/server.key"
+      jitsi_meet_ssl_cert_path: "/etc/letsencrypt/live/{{ jitsi_meet_server_name }}/fullchain.pem"
+      jitsi_meet_ssl_key_path: "/etc/letsencrypt/live/{{ jitsi_meet_server_name }}/privkey.pem"
+      jitsi_meet_configure_nginx: true
       become: yes
       tags: jitsi
+
+  post_tasks:
+    # https://github.com/jitsi/jicofo/blob/master/README.md#certificates
+    - name: Copy root certificate from prosody
+      become: true
+      copy:
+        remote_src: yes
+        src: "/var/lib/prosody/{{ jitsi_meet_server_name }}.crt"
+        dest: "/usr/local/share/ca-certificates/"
+    - name: Copy auth certificate from prosody
+      become: true
+      copy:
+        remote_src: yes
+        src: "/var/lib/prosody/auth.{{ jitsi_meet_server_name }}.crt"
+        dest: "/usr/local/share/ca-certificates/"
+    - name: Run update-ca-certificates for Jicofo
+      become: true
+      command: update-ca-certificates
+
 
 ```
 
