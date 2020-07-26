@@ -26,6 +26,10 @@ pygmentCodeFences = true
   twitter = "AmarOk1412"
   mastodon = "mastodon.social/@amarok"
 
+[[menu.main]]
+    name = "Posts"
+    url = "post/"
+    weight = 2
 
 [[menu.main]]
     name = "Logs"
