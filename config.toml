@@ -12,6 +12,7 @@ pygmentCodeFences = true
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
+  mainSections = ["blog"]
   commit = false
   rss = true
   comments = true
@@ -27,9 +28,9 @@ pygmentCodeFences = true
   mastodon = "mastodon.social/@amarok"
 
 [[menu.main]]
-    name = "Posts"
-    url = "post/"
-    weight = 2
+    name = "Blog"
+    url = "blog/"
+    weight = 1
 
 [[menu.main]]
     name = "Logs"
