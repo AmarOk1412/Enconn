@@ -34,18 +34,18 @@ Let's imagine a cluster of nodes around the world. Without any logic, we can't r
 ![DHT](/img/dev/p2p_dht/dht.png)
 
 
-If we have a circle of $N$ nodes, we can interconnect the nodes by connecting a node to one neighbor. With this technique, the number of connections in that network will be minimized ($N$ for all of the network), but the time to send a message will be maximized. On the contrary, we can also connect a node to all of the peers. We will have a lot of connections ($N\times N$) but we will minimize the time to send a message. But other techniques exist, to get a quick transmission without many connections (and still easy to calculate).
+If we have a circle of N nodes, we can interconnect the nodes by connecting a node to one neighbor. With this technique, the number of connections in that network will be minimized (N for all of the network), but the time to send a message will be maximized. On the contrary, we can also connect a node to all of the peers. We will have a lot of connections (NxN) but we will minimize the time to send a message. But other techniques exist, to get a quick transmission without many connections (and still easy to calculate).
 
 On a Kademlia like network, each node has a 160 bits random identifier (and the hashes keys have the same length). To define the distance between two nodes, the **XOR** method is used. Thus, the nodes ...0101010 and ...0100010 will have a distance of ...0001000.
 
 ### Storage
 
-Let's imagine that Alice wants to store a value on the DHT: $hash(foo) = bar$. $hash(foo)$ is a 160 bits long key. We can find the node that will store the data $bar$ in a complexity like $O(log(N) + \omega)$.
-However, because this node can leave the network during the next seconds, the data must be stored in a redundant way. So, the data will be stored in the $k$ nearest nodes to guaranty a time to live. For example, **IPFS** defines $k=20$ (to confirm) and **BitTorrent** $k=8$ (to guaranty a ~10 minutes ttl).
+Let's imagine that Alice wants to store a value on the DHT: hash(foo) = bar. hash(foo) is a 160 bits long key. We can find the node that will store the data bar in a complexity like O(log(N) + Ω).
+However, because this node can leave the network during the next seconds, the data must be stored in a redundant way. So, the data will be stored in the k nearest nodes to guaranty a time to live. For example, **IPFS** defines k=20 (to confirm) and **BitTorrent** k=8 (to guaranty a ~10 minutes ttl).
 
 ### Routing
 
-Each node in the DHT divides the cluster in *buckets* until having one bucket with $k$ nodes present (including the current one). The routing table for $F (id=10010...)$ will be:
+Each node in the DHT divides the cluster in *buckets* until having one bucket with k nodes present (including the current one). The routing table for F (id=10010...) will be:
 
 Bucket ID | Nodes
 ---|---
@@ -56,16 +56,16 @@ X | 0aaaa 0bbbb
 1001 | 10011 10011
 ... | ...
 
-The last bucket has $F$.
+The last bucket has F.
 
 A protocol can be defined to interact between peers. First, the insertion of nodes in the routing table is defined by:
 
-$X$ is a node for bucket $B$. If $B$ is not full, $X$ is added. Else, if the bucket contains expired nodes, $X$ is added to $B$ (and the expired node is removed) or if $X$ is in the same bucket as $F$ we divide $B$. In the other cases, we drop $X$.
+X is a node for bucket B. If B is not full, X is added. Else, if the bucket contains expired nodes, X is added to B (and the expired node is removed) or if X is in the same bucket as F we divide B. In the other cases, we drop X.
 
 The following operations are also defined:
 
 1. **ping**
-2. **find(n)** to get the list of the $k$ nearest nodes of $n$.
+2. **find(n)** to get the list of the k nearest nodes of N.
 3. **put(k,v)**
 4. **get(k)**
 
@@ -75,12 +75,12 @@ Now that the protocol is designed, we have to discuss an important step: joining
 
 #### Maintenance
 
-Because the routing table can't be fixed (nodes are able to leave or join the network), we need to maintain some sort of synchronization with the network. Periodically, a node will try a **find(F)** to maintain its direct neighbors and for each bucket **find(i)** where $i$ is a random identifier of $B$ to fill the bucket (if $B$ is empty, the identifier comes from the previous bucket) and to remove expired nodes.
+Because the routing table can't be fixed (nodes are able to leave or join the network), we need to maintain some sort of synchronization with the network. Periodically, a node will try a **find(F)** to maintain its direct neighbors and for each bucket **find(i)** where i is a random identifier of B to fill the bucket (if B is empty, the identifier comes from the previous bucket) and to remove expired nodes.
 
 
 ### Retrieve a value
 
-Finally, if Bob wants to get the values stored for $hash(foo)$, he has to send $find(hash(foo))$ on the DHT to get the $k$ nearest nodes of $hash(foo)$. When the list is stationary, the search operation is done.
+Finally, if Bob wants to get the values stored for hash(foo), he has to send find(hash(foo)) on the DHT to get the k nearest nodes of hash(foo). When the list is stationary, the search operation is done.
 
 Thus, it's possible for all peers to get or to send a value on the resulting list via **get(k)** and **put(k,v)**,
 
@@ -98,7 +98,7 @@ Even if a DHT is slower than a classic client/server architecture (and more comp
 
 # Let's do a quick project!
 
-Wabi is a smart city where pollution sensors are present everywhere. Every sensor is a DHT node and put collected data every minute on the network to $hash(pollution_level)$. A data is something like:
+Wabi is a smart city where pollution sensors are present everywhere. Every sensor is a DHT node and put collected data every minute on the network to hash(pollution_level). A data is something like:
 
 ```
 SIGN(sensor_key,{
