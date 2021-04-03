@@ -9,7 +9,7 @@ It's been a long time since my previous post, but let's continue this serie abou
 
 *Git* is a versioning tool. Unlike some systems like *subversion*, you don't need to have a server to use *git*. Every member of the project own a (partial or not) copy of the project and can directly send data to another member. So, even if today a lot of people use platforms like [Gitea](https://gitea.com/), [GitLab](https://gitlab.com/), [GitHub](https://github.com/), etc. it's possible to work without any of them (can be useful when the platform is down).
 
-In this article I will **not describe how to use *git*** because there is already plenty of articles about this  (e.g. https://try.github.io/). If you want to learn how to use *git*, this article is not for you. In this article, I will describe what is going on when you do `git clone https://github.com/zestedesavoir/zmarkdown/` from the network perspective and will describe how to implement a minimalist *git* server working on a custom protocol.
+In this article I will **not describe how to use *git*** because there is already plenty of articles about this  (e.g. https://try.github.io/ ). If you want to learn how to use *git*, this article is not for you. In this article, I will describe what is going on when you do `git clone https://github.com/zestedesavoir/zmarkdown/` from the network perspective and will describe how to implement a minimalist *git* server working on a custom protocol.
 
 # What is a git transport?
 
