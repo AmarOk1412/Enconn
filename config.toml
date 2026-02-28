@@ -15,11 +15,11 @@ pygmentCodeFences = true
   mainSections = ["blog"]
   commit = false
   rss = true
-  comments = true
+  comments = false
   selfHosted = true
   useHLJS = true
 
-[Author]
+[Params.author]
   name = "Sébastien Blin"
   website = "https://enconn.fr"
   email = "contact@enconn.fr"
