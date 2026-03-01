@@ -3,6 +3,7 @@ title: r2
 subtitle: pour changer de gdb
 date: 2018-03-25
 tags: ["security", "tools"]
+comments: true
 ---
 
 *Article original [ici](https://zestedesavoir.com/billets/2479/r2-pour-changer-de-gdb/)*

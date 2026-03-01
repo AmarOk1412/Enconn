@@ -4,6 +4,7 @@ subtitle: Some links to articles I wrote or talk I gave.
 date: 2022-11-19
 tags: ["jami", "dev", "talk", "software"]
 bigimg: [{src: "/img/dev/jami/_min.jpg", desc: "Jami banner image"}]
+comments: true
 ---
 
 I'm a Core Developer for https://jami.net since several years now.

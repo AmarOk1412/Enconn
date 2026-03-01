@@ -3,6 +3,7 @@ title: Passer de la fibre au 56k
 subtitle: Ou comment baisser la qualité de son réseau
 date: 2017-07-07
 tags: ["software", "network", "linux"]
+comments: true
 ---
 
 Contenu posté sur [Zeste de Savoir](https://zestedesavoir.com/contenus/2012/passer-de-la-fibre-au-56k/)
@@ -20,7 +21,7 @@ Je travaille donc sur l'amélioration de la qualité de la vidéo lorsque le log
 Il existe bien sûr d'autres cas où ça peut-être utile. Par exemple :
 > Un cas d’usage que tu peux rajouter dans ton article, c’est la limitation de l’upload sur une connexion câble NC.
 Dès que tu dépasses les 4M d’up, ton ping explose (passant à environ 500 ms).
-> J’avais donc limité mon upload à 3M sur cette connexion pour garder un ping inférieur à 100 ms tout en ayant un serveur chez moi.  
+> J’avais donc limité mon upload à 3M sur cette connexion pour garder un ping inférieur à 100 ms tout en ayant un serveur chez moi.
 > Source : https://mammout.bzh/users/alarig/updates/673
 
 # Simuler un cas précis avec tc-netem

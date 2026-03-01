@@ -2,6 +2,7 @@
 title: (2/3)Retour du nsec - The visual microphone
 date: 2018-05-31
 tags: ["ctf", "sécurité"]
+comments: true
 ---
 
 Suite de la petite série sur le retour du nsec. Dans ce second article, je vais m'intéresser la dernière partie d'une track en 3 points réalisée par un autre membre de mon équipe.

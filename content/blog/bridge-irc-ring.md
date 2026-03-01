@@ -3,11 +3,12 @@ title:  Créer un bridge IRC - Ring
 subtitle:  Réalisation d'un bridge IRC/Ring en python
 date: 2017-05-06
 tags: ["software", "ring", "python"]
+comments: true
 ---
 
 Contenu posté sur [Zeste de Savoir](https://zestedesavoir.com/contenus/1829/creer-un-bridge-irc-ring/)
 
-*J'aime faire des bots*. J'ai des bots pour tout et n'importe quoi. J'ai des bots sur twitter, sur des serveurs [IRC](https://github.com/zestedesavoir/clem-irc-bot), des bots plus ou moins utile, des bots qui contrôlent [des trucs](/dev/glados-replica) et d'autres qui bougent.  
+*J'aime faire des bots*. J'ai des bots pour tout et n'importe quoi. J'ai des bots sur twitter, sur des serveurs [IRC](https://github.com/zestedesavoir/clem-irc-bot), des bots plus ou moins utile, des bots qui contrôlent [des trucs](/dev/glados-replica) et d'autres qui bougent.
 Ce matin, j'ai décidé de réaliser un petit bot qui sert de bridge entre un channel IRC et [ring.cx](https://ring.cx). Ce bot peut servir à plusieurs choses :
 
 1. Pouvoir pinguer une personne par Ring depuis le channel IRC.

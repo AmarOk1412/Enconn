@@ -3,6 +3,7 @@ title: How to host your own Jitsi instance
 subtitle: A short feedback from experience
 date: 2019-05-12
 tags: ["free software", "devops"]
+comments: true
 ---
 
 For the local future [CHATONS](https://chatons.org/) (*Chatons* is a french word which means *kitten*), I am currently helping to host a new [Jitsi-meet](https://jitsi.org/jitsi-meet/) instance. This instance will be available at this address: https://conference.facil.services/ and this is a little post about how we did it and what problems we encountered.
@@ -97,7 +98,7 @@ Let's finish the work by installing the monitoring tools, the back-up system, an
 To conclude, if you want to host your own *Jitsi* instance:
 
 + You can generate your own *Let's Encrypt* certificate and follow the quick-install method from Jitsi. It will work great and you will be able to update your instance from time to time.
-+ I didn't try in a dockerized environment, but i think this will also work. Some problems may exists, but [Santiago](https://github.com/santiagomr) is answering fast and already fixed his role! 
-+ If you want to automate the whole process with *Ansible*, actually you can. The *Freedom of Press* role is working if you take the patched role. 
++ I didn't try in a dockerized environment, but i think this will also work. Some problems may exists, but [Santiago](https://github.com/santiagomr) is answering fast and already fixed his role!
++ If you want to automate the whole process with *Ansible*, actually you can. The *Freedom of Press* role is working if you take the patched role.
 
 Finally, if you see some problems with your instances, actually, the logs are complete and useful.

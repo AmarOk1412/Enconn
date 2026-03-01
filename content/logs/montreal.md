@@ -4,6 +4,7 @@ subtitle: Première étape de cette année au Quebec
 date: 2016-08-20
 tags: ["quebec", "logs"]
 bigimg: [{src: "/img/logs/quebec/montreal/mr1.jpg", desc: "Point de vue de Mont-Royal"}, {src: "/img/logs/quebec/montreal/old1.jpg", desc: "Point de vue du Vieux-Port"}]
+comments: true
 ---
 
 ## Les points visités

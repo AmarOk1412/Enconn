@@ -4,6 +4,7 @@ subtitle: direction New-Brunswick
 date: 2018-09-09
 tags: ["canada", "voyage", "logs"]
 bigimg: [{src: "/img/logs/new-brunswick/hopewell2.jpg", desc: "Hopewell rocks"}]
+comments: true
 ---
 
 En août 2016, je suis parti de France pour vivre au Canada, au moins quelques années. Ça fait maintenant plus de 2 ans que je vis ici, et j'ai parcouru quelques milliers de km dans ce grand pays. visité une bonne partie de 5 des provinces (je souhaite encore visiter la Gaspésie au Québec, l'extrême Nord, le Labrador et le Yukon).

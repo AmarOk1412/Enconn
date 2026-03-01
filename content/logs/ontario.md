@@ -3,6 +3,7 @@ title: Un loup au Canada - Partie 3
 subtitle: Oh Ontario!
 date: 2018-09-24
 tags: ["canada", "voyage", "logs"]
+comments: true
 ---
 
 

@@ -3,6 +3,7 @@ title: Tarpaulin ou kcov ?
 subtitle: Outils de couverture de code pour les projets Rust
 date: 2018-04-23
 tags: ["programmation", "tests", "rust"]
+comments: true
 ---
 
 Pour un projet (que je présenterais plus tard sur le forum), j'ai eu besoin d'avoir du retour sur mes tests. Une des métriques m'intéresse est le pourcentage de couverture, car il me permet de connaître les branches que je n'ai pas encore testé et d'ajouter des scénarios.

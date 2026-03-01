@@ -3,6 +3,7 @@ title: Git dissect
 subtitle: P2P internals - episode 4
 date: 2021-03-25
 tags: ["p2p", "dev", "git"]
+comments: true
 ---
 
 It's been a long time since my previous post, but let's continue this serie about distributed systems with a tool that a lot of people use every day: *git*.
@@ -129,7 +130,7 @@ S: 0000
 
 Our server can support a lot of features I will not describe in this article, but if both sides support `side-band` or `side-band-64k` the server sends data in a multiplexed format by chunks of 999 bytes for `side-band` or 65519 bytes for `side-band-64k` and one byte to specify the channel (described later). `no-progress` means that the server doesn't send the progress. Other properties are described [here](https://git-scm.com/docs/protocol-capabilities).
 
-Now that our client knows what the server has, it's time to negotiate the packfile! 
+Now that our client knows what the server has, it's time to negotiate the packfile!
 
 ## Packfile negotiation
 
@@ -602,7 +603,7 @@ fn main() {
         println!("Usage: ./p2p-internal-git <src_dir> <dest_dir>");
         return;
     }
-    
+
     let src_dir = args[1].clone();
     let dest_dir = Path::new(&args[2]);
 
@@ -677,7 +678,7 @@ remote: Total 16609 (delta 1006), reused 1192 (delta 1001), pack-reused 15402
 Receiving objects: 100% (16609/16609), 10.85 MiB | 2.25 MiB/s, done.
 Resolving deltas: 100% (11966/11966), done.
 # Then, the magic:
- amarok@tars3  ~/Projects/p2p-internals-git   main  ./target/debug/p2p-internals-git zmarkdown zmarkdown-copy                                   
+ amarok@tars3  ~/Projects/p2p-internals-git   main  ./target/debug/p2p-internals-git zmarkdown zmarkdown-copy
 Starting server for zmarkdown
 RECV: 0028git-upload-pack /zdshost=localhost
 Upload pack command detected
@@ -686,7 +687,7 @@ Send: 003fc42412dfee248e8acbd21df6038991dff6fd1b2a refs/heads/master
 Send: 0046c42412dfee248e8acbd21df6038991dff6fd1b2a refs/remotes/origin/HEAD
 Send: 0048c42412dfee248e8acbd21df6038991dff6fd1b2a refs/remotes/origin/master
 Send: 0000
-RECV: 0057want c42412dfee248e8acbd21df6038991dff6fd1b2a multi_ack side-band-64k include-tag 
+RECV: 0057want c42412dfee248e8acbd21df6038991dff6fd1b2a multi_ack side-band-64k include-tag
 
 Detected wanted commit: c42412dfee248e8acbd21df6038991dff6fd1b2a
 RECV: 0000
@@ -700,7 +701,7 @@ Cloned into "zmarkdown-copy"!
 # And we can validate
  amarok@tars3  ~/Projects/p2p-internals-git   main  git -C zmarkdown rev-parse HEAD
 c42412dfee248e8acbd21df6038991dff6fd1b2a
- amarok@tars3  ~/Projects/p2p-internals-git   main  git -C zmarkdown-copy rev-parse HEAD 
+ amarok@tars3  ~/Projects/p2p-internals-git   main  git -C zmarkdown-copy rev-parse HEAD
 c42412dfee248e8acbd21df6038991dff6fd1b2a
 ```
 

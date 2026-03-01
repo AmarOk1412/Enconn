@@ -4,6 +4,7 @@ subtitle:  Gaël Langevin et son robot Inmoov
 date: 2016-02-17
 tags: ["chronique-du-libre", "robot"]
 bigimg: [{src: "/img/dev/inmoov/_min.jpg", desc: "Inmoov"}]
+comments: true
 ---
 
 Le monde du libre est composé de bien de projets dans de nombreux domaines. De nombreuses communautés se sont formées autour de ces projets. Cette nouvelle série d'articles a pour but de présenter des projets communautaires dans différents domaines. Aujourd'hui, nous allons débuter cette série avec un projet de robot humanoïde open-source : InMoov.
@@ -12,7 +13,7 @@ Le monde du libre est composé de bien de projets dans de nombreux domaines. De 
 
 <!--more-->
 
-Bonjour Gaël et merci de bien vouloir répondre à ces quelques questions !  
+Bonjour Gaël et merci de bien vouloir répondre à ces quelques questions !
 
 __Pour commencer, parle-nous un peu de toi. Qui es-tu, que fais-tu ?__
 
@@ -20,7 +21,7 @@ Bonjour, je m'appelle Gaël Langevin, je suis un sculpteur et designer français
 
 __Aujourd'hui, nous allons parler de ton projet de robot humanoïde InMoov. Réalises-tu des robots depuis longtemps ? Quels sont les robots que tu as réalisés avant InMoov ?__
 
-Non, pas vraiment. J'avais déjà réalisé des objets qui ressemblaient à des pièces de robots, mais elles ne pouvaient ni bouger, ni être programmées.  
+Non, pas vraiment. J'avais déjà réalisé des objets qui ressemblaient à des pièces de robots, mais elles ne pouvaient ni bouger, ni être programmées.
 J'ai vraiment commencé la robotique il y a 3 ans, en janvier 2012. J'avais alors acheté une imprimante 3D pour mon travail, mais je souhaitais réaliser un grand projet avec cet outil. J'ai alors réalisé une prothèse de main 3D (ce qui fut le début du projet InMoov).
 
 __Combien de temps par semaine consacres-tu au projet InMoov ?__
@@ -29,16 +30,16 @@ Il ne s'agit pas d'un travail à plein temps. Je travaille sur le projet seuleme
 
 __Qu'est-ce que le projet InMoov concrètement ? Pourquoi ce projet ?__
 
-InMoov est un projet de robot humanoïde open-source.  
+InMoov est un projet de robot humanoïde open-source.
 
-Pour la petite histoire, en 2012, j’ai fait l’acquisition d’une petite imprimante 3D afin d’enrichir mon travail. L'imprimante devait me servir pour la création d’une prothèse futuriste, mais celle-ci n’a pas été concluante. Par contre, ce projet m’a donné envie d’utiliser mon imprimante 3D pour créer cette prothèse moi-même. J’ai donc modélisé et imprimé une main et un avant-bras pendant mon temps libre. Ayant profité depuis plusieurs années d'outils comme Linux et [Blender](http://www.blender.org/), j’ai décidé de contribuer à ma manière à cette notion de partage disponible sur Internet, en mettant à disposition les fichiers de cette main sur [Thingiverse](https://www.thingiverse.com/).  
+Pour la petite histoire, en 2012, j’ai fait l’acquisition d’une petite imprimante 3D afin d’enrichir mon travail. L'imprimante devait me servir pour la création d’une prothèse futuriste, mais celle-ci n’a pas été concluante. Par contre, ce projet m’a donné envie d’utiliser mon imprimante 3D pour créer cette prothèse moi-même. J’ai donc modélisé et imprimé une main et un avant-bras pendant mon temps libre. Ayant profité depuis plusieurs années d'outils comme Linux et [Blender](http://www.blender.org/), j’ai décidé de contribuer à ma manière à cette notion de partage disponible sur Internet, en mettant à disposition les fichiers de cette main sur [Thingiverse](https://www.thingiverse.com/).
 
-L’enthousiasme de la communauté a été fulgurant, cela m’a donné envie de trouver des solutions pour motoriser et piloter cette main via mon ordinateur. C’est en cherchant un moyen open-source que j’ai découvert [Arduino](http://www.arduino.cc/), une plateforme électronique supportée par une énorme communauté de Makers qui est toujours en expansion.    
-Une fois les solutions trouvées, j’ai de nouveau partagé toutes mes informations sur le [site](http://inmoov.fr) du projet.  
+L’enthousiasme de la communauté a été fulgurant, cela m’a donné envie de trouver des solutions pour motoriser et piloter cette main via mon ordinateur. C’est en cherchant un moyen open-source que j’ai découvert [Arduino](http://www.arduino.cc/), une plateforme électronique supportée par une énorme communauté de Makers qui est toujours en expansion.
+Une fois les solutions trouvées, j’ai de nouveau partagé toutes mes informations sur le [site](http://inmoov.fr) du projet.
 
 À partir de ce moment, j’ai décidé d’avancer et de créer un robot humanoïde complet, disponible et reproductible par tous, et d’en faire une plateforme de développement pour les Makers, les écoles et les universités. Je conçois donc toutes les pièces dans un format de 12 cm^3^ afin que n’importe quelle petite imprimante puisse les reproduire.
 
-Après la main, j’ai créé un biceps puis une épaule. Cela a été relativement facile, une fois le bras droit créé sous Blender, j’ai fait une mirrorisation (symétrie axiale) de ce bras afin d’obtenir et d’imprimer le bras gauche. J’avais ainsi deux bras fonctionnels que j’ai aussitôt partagé sur Internet.  
+Après la main, j’ai créé un biceps puis une épaule. Cela a été relativement facile, une fois le bras droit créé sous Blender, j’ai fait une mirrorisation (symétrie axiale) de ce bras afin d’obtenir et d’imprimer le bras gauche. J’avais ainsi deux bras fonctionnels que j’ai aussitôt partagé sur Internet.
 Il me fallait trouver une solution pour synchroniser ces deux bras afin de poursuivre la création de mon robot. En cherchant pendant de longues heures sur Internet, majoritairement la nuit, je suis tombé sur [MyRobotLab](https://github.com/MyRobotLab/), un service Java open-source, grâce auquel j’ai rencontré Greg Perry, un personnage incroyable avec qui j’ai tout de suite accroché.
 
 __Quelles sont aujourd'hui les possibilités du projet InMoov ? De quoi le robot est-il capable ?__
@@ -62,7 +63,7 @@ L’entraide peut nous faire aller plus loin. Je crois que nous pouvons changer 
 
 __Combien de robots InMoov sont en ce moment autour du monde ?__
 
-Je ne peux vraiment pas répondre à cette question. Je peux seulement faire une estimation basée sur le nombre de téléchargements et le nombre de vidéos/photos sur Internet. Je pense qu'il y a environ 150 InMoov construits, mais à différents niveaux. Pour vous donner une idée, la main a été téléchargée 50000 fois, mais je ne connais seulement que quelques robots complets, parce qu'ils sont proches de la communauté et partagent leurs idées.  
+Je ne peux vraiment pas répondre à cette question. Je peux seulement faire une estimation basée sur le nombre de téléchargements et le nombre de vidéos/photos sur Internet. Je pense qu'il y a environ 150 InMoov construits, mais à différents niveaux. Pour vous donner une idée, la main a été téléchargée 50000 fois, mais je ne connais seulement que quelques robots complets, parce qu'ils sont proches de la communauté et partagent leurs idées.
 Pour répertorier les robots InMoov, une [carte](https://mapsengine.google.com/map/u/0/embed?mid=z97J-N7M1tkw.kszNjXUbWLl4) a été créée. Et le nombre de robots InMoov grandit rapidement. J'ai personnellement imprimé 3 robots sans considérer toutes les améliorations que j'ai apportées. Mais un seul est imprimé avec toutes les pièces. C'est celui que je présente lors d'évènements. Depuis le début du projet, j'ai imprimé 6 mains complètes.
 
 __La communauté formée autour du projet est juste énorme ! D'après toi, pourquoi autant de robots InMoov sont réalisés ?__
@@ -87,14 +88,14 @@ Bonne question... Tous ces endroits sont intéressants pour moi, parce que je vi
 
 ![InMoov à la MakerFaire de New York](/img/dev/inmoov/makerfaire.jpg)
 
-__Si nous souhaitons réaliser notre propre InMoov, de quoi avons-nous besoin ? Combien coûte-t-il ?__  
+__Si nous souhaitons réaliser notre propre InMoov, de quoi avons-nous besoin ? Combien coûte-t-il ?__
 
-Le robot complet coûte moins de 1 500 €, ce qui est relativement peu cher comparé aux robots du même type. Il ne s'agit pas d'un projet facile, mais il est conçu pour que vous puissiez apprendre et découvrir comment on construit le robot. J'ai conçu ce que j'appelle le "[Finger Starter Kit](http://www.inmoov.fr/product/finger-starter-kit/)". Il s'agit d'un kit d'un doigt imprimé en 3D que nous pouvons relier à un Arduino Uno et un servomoteur. Une fois que vous savez comment ce kit fonctionne, vous pouvez passer à l'étape suivante : La main. Et continuer, étape par étape.  
+Le robot complet coûte moins de 1 500 €, ce qui est relativement peu cher comparé aux robots du même type. Il ne s'agit pas d'un projet facile, mais il est conçu pour que vous puissiez apprendre et découvrir comment on construit le robot. J'ai conçu ce que j'appelle le "[Finger Starter Kit](http://www.inmoov.fr/product/finger-starter-kit/)". Il s'agit d'un kit d'un doigt imprimé en 3D que nous pouvons relier à un Arduino Uno et un servomoteur. Une fois que vous savez comment ce kit fonctionne, vous pouvez passer à l'étape suivante : La main. Et continuer, étape par étape.
 Le matériel demandé pour réaliser ce projet est plutôt classique.
 
-Vous avez bien entendu besoin d'une imprimante 3D bien configurée. Autrement, vous allez vous retrouver avec des pièces inutilisables. Le temps d'impression du robot complet prend énormément de temps, il y a environ 200 pièces à imprimer (réalisé avec Blender, qui n'est pas forcément le plus facile outil pour débuter dans la modélisation 3D), mais toutes les pièces font moins de 12cm^3^ et sont donc imprimables avec n'importe quelle imprimante 3D. Le projet ressemble à un gros jeu Lego ou à un gros puzzle.  
-Pour faire fonctionner le robot, il faut pour le moment 32 servomoteurs et 2 arduinos.  
-La construction du robot nécessite aussi un ordinateur, une drill ou dremel, des tournevis, un cutter, et d'autres outils se trouvant dans n'importe quelle boite à outils.  
+Vous avez bien entendu besoin d'une imprimante 3D bien configurée. Autrement, vous allez vous retrouver avec des pièces inutilisables. Le temps d'impression du robot complet prend énormément de temps, il y a environ 200 pièces à imprimer (réalisé avec Blender, qui n'est pas forcément le plus facile outil pour débuter dans la modélisation 3D), mais toutes les pièces font moins de 12cm^3^ et sont donc imprimables avec n'importe quelle imprimante 3D. Le projet ressemble à un gros jeu Lego ou à un gros puzzle.
+Pour faire fonctionner le robot, il faut pour le moment 32 servomoteurs et 2 arduinos.
+La construction du robot nécessite aussi un ordinateur, une drill ou dremel, des tournevis, un cutter, et d'autres outils se trouvant dans n'importe quelle boite à outils.
 Le robot InMoov est porté par la communauté MyRobotLab. Pour rendre InMoov autonome, nous cherchons à rendre le logiciel compatible avec une carte Odroid U3 compatible avec Linux.
 
 __Quel outil est utilisé pour le système de synthèse vocale ?__

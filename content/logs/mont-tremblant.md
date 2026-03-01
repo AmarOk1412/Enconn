@@ -4,6 +4,7 @@ subtitle: Une balade proche de Montréal
 date: 2020-08-27
 tags: ["quebec", "logs"]
 bigimg: [{src: "/img/logs/quebec/mont-tremblant/lake3.jpg", desc: "Des conifères et leurs reflets"}]
+comments: true
 ---
 
 Montréal est une ville très agréable à vivre, mais ses alentours sont superbes pour décompresser le temps d'un week-end. Entre l'Estrie, les Monts au Sud, Oka au Nord, et les balades un peu plus au Nord, il y a énorméments de choses à faire. si vous avez un joli week-end d'automne à passer, ou même une journée d'hiver, je recommande très fortement le Mont Tremblant, un parc SEPAQ au Nord de Montréal (il y a aussi la ville de Mont Tremblant et d'autres choses dans la zone. Ici je parlerais du parc)

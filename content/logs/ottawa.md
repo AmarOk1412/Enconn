@@ -4,6 +4,7 @@ subtitle: Visite de la capitale
 date: 2016-12-30
 tags: ["quebec", "logs"]
 bigimg: [{src: "/img/logs/quebec/ottawa/o14.jpg", desc: "Araignée"}, {src: "/img/logs/quebec/ottawa/o8.jpg", desc: "Balade"}]
+comments: true
 ---
 
 Petite visite d'une journée dans la capitale canadienne. Ottawa est une ville assez rapide à visiter au final (pour le centre de la ville). Les monuments à voir se trouvent sur le même chemin. Une grosse partie de cette journée s'est déroulé prêt du parlement (un spectacle de lumières avait lieu) et sur le chemin des monuments. Pour le repas du midi nous l'avons fait entre le chemin conseillé pour les visites de monuments et notre auberge de jeunesse, au market district.

@@ -4,6 +4,7 @@ subtitle: La ville touristique
 date: 2016-08-22
 tags: ["quebec", "logs"]
 bigimg: [{src: "/img/logs/quebec/quebec-city/up5.jpg", desc: "House"}, {src: "/img/logs/quebec/quebec-city/down1.jpg", desc: "Vue de la gare"}]
+comments: true
 ---
 
 ## Les points visités

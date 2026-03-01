@@ -4,6 +4,7 @@ subtitle: En roadtrip de 10 jours
 date: 2020-08-16
 tags: ["quebec", "logs"]
 bigimg: [{src: "/img/logs/quebec/gaspesie/bateau.jpg", desc: "Un bateau"}, {src: "/img/logs/quebec/gaspesie/descente.jpg", desc: "Mont Joseph Fortin"}, {src: "/img/logs/quebec/gaspesie/ori2.jpg", desc: "Un orignal"}]
+comments: true
 ---
 
 (Note: ce billet traite d'un voyage réalisé en 2019)

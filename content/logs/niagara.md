@@ -4,6 +4,7 @@ subtitle: The famous ones.
 date: 2016-12-30
 tags: ["quebec", "logs"]
 bigimg: [{src: "/img/logs/quebec/niagara/t39.jpg", desc: "Les chutes"}, {src: "/img/logs/quebec/niagara/t40.jpg", desc: "Arbre gelé"}]
+comments: true
 ---
 
 Pour notre premier jour à Toronto, nous avons décidé de ne pas visiter Toronto, mais les chutes du Niagara, qui se trouvent à 1h30 en bus de la ville. Au final, les chutes sont magnifiques, mais le complexe autour des chutes m'a un peu surpris (je m'attendais à une zone plus naturelle qu'un complexe de casinos).

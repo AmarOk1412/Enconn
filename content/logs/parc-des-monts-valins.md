@@ -4,6 +4,7 @@ subtitle: Le point de vue du Saguenay
 date: 2016-11-20
 tags: ["quebec", "logs"]
 bigimg: [{src: "/img/logs/quebec/mont-valins/mv1.jpg", desc: "Lac"}, {src: "/img/logs/quebec/mont-valins/s1.jpg", desc: "En hiver"}]
+comments: true
 ---
 
 ## Première visite

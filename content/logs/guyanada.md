@@ -4,6 +4,7 @@ subtitle: Premiere fois en Amérique du Sud
 date: 2022-12-03
 tags: ["france", "guyane", "south-america", "tropical", "logs"]
 bigimg: [{src: "/img/logs/guyanada/vue-partant-cacao.jpg", desc: "canopée"}, {src: "/img/logs/guyanada/capucin-4.jpg", desc: "Un capucin"}]
+comments: true
 ---
 
 En Septembre 2022, je me suis rendu en Guyane Francaise visiter des amis de longue date.

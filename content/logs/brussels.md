@@ -4,6 +4,7 @@ subtitle: Beer, waffles and buildings
 date: 2018-02-06
 tags: ["FOSDEM", "Belgium", "logs"]
 bigimg: [{src: "/img/logs/brussels/mannekenPis.jpg", desc: "Manneken Pis"}, {src: "/img/logs/brussels/tintin.jpg", desc: "tintin"}]
+comments: true
 ---
 
 The day before the [FOSDEM](/dev/fosdem), I visited Brussels. It was a 26 km day walk. In the morning I went to *Atomium* built for the World's Fair Expo (1958). Then I wanted to go to the "Serres Royales", but it was raining so I come back in the center.

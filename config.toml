@@ -24,8 +24,6 @@ pygmentCodeFences = true
   website = "https://enconn.fr"
   email = "contact@enconn.fr"
   github = "AmarOk1412"
-  twitter = "AmarOk1412"
-  mastodon = "mastodon.social/@amarok"
 
 [[menu.main]]
     name = "Blog"
@@ -41,3 +39,7 @@ pygmentCodeFences = true
     name = "About"
     url = "about/"
     weight = 3
+
+[services]
+  [services.disqus]
+    shortname = 'amarok1412'

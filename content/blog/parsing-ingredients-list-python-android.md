@@ -3,6 +3,7 @@ title: Parsing recipe ingredients locally
 subtitle: Or how to run a python library on a phone
 date: 2026-02-28
 tags: ["android", "planeat", "dev"]
+comments: true
 ---
 
 Wow, it's been 4 years since my last article. A lot of things have happened: the pandemic, the AI-bubble-sloppy-shit. But recently I thought about re-opening this blog.

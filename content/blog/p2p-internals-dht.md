@@ -4,6 +4,7 @@ subtitle: DHT
 date: 2019-10-15
 tags: ["p2p", "dev"]
 bigimg: [{src: "/img/dev/p2p_dht/banner.jpg"}]
+comments: true
 ---
 
 In the previous articles we talked about how to create a peer to peer connection and what issues we can encounter. These problems are generally due to the NAT which needs methods to pass through it (e.g. [TURN](/post/p2p-internals-rfc6062) servers) or some new protocols (like [ICE](/post/p2p-internals-ice)).

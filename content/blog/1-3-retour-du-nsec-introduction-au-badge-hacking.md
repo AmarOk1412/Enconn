@@ -2,6 +2,7 @@
 title: (1/3)Retour du nsec - Introduction au badge hacking
 date: 2018-05-29
 tags: ["ctf", "sécurité"]
+comments: true
 ---
 
 Comme expliqué dans mon précédent billet ([https://zestedesavoir.com/contenus/2479/r2-pour-changer-de-gdb/](https://zestedesavoir.com/contenus/2479/r2-pour-changer-de-gdb/)), j'ai participé au [NorthSec 2018](https://nsec.io/), une grosse compétition de sécurité en Amérique du Nord.

@@ -3,10 +3,11 @@ title: A GPT-3 bot to answer my tickets
 subtitle: A project done in one week-end
 date: 2022-08-18
 tags: ["gpt-3", "dev", "ai", "software"]
+comments: true
 ---
 
 
-Long time no see! 
+Long time no see!
 I have a looooooot of projects in mind and a lot far too big (+40h of work & personal community stuff & life). However, I got a list of projects I can do in one week-end(ish) (e.g. a Gartic Phone with DALL-E, play with open push, etc) and because I answer to a lot of tickets every-day, I was wondering how this can be automatized nowadays with all the new AI projects (for the fun, to be honest, I think a good FAQ should answer to all common questions and a good documentation should complete this. So, you just have to fix bugs and redirect to the FAQ/doc).
 
 So, I took a few hours to play with GPT-3 during a week-end (I had an access for two months without using it) to create a small bot that will answer my tickets. This bot is called: GePeTTTo.
@@ -38,8 +39,8 @@ The first step is to get an access token via `https://INSTANCE_GITLAB/-/profile/
 
 Then, we can read the documentation. In my case:
 
-https://docs.gitlab.com/ee/api/issues.html  
-https://docs.gitlab.com/ee/api/discussions.html  
+https://docs.gitlab.com/ee/api/issues.html
+https://docs.gitlab.com/ee/api/discussions.html
 https://docs.gitlab.com/ee/api/projects.html
 
 Then, the simplest way to know what we will have to parse is to use that good old `curl`:
@@ -196,7 +197,7 @@ Because I also check a lot https://zestedesavoir.com (a French Forum), I was won
 2. https://zestedesavoir.com/forums/sujet/16355/probleme-performances-chrome/ (answer to the first post)
 
 > Il y a plusieurs raisons qui pourraient expliquer les performances de Chrome. Il se peut que vous ayez trop d'onglets ouverts, ce qui ralentit votre ordinateur. Vous pouvez également avoir des extensions ou des programmes en cours d'exécution qui utilisent beaucoup de mémoire et de CPU.
-> 
+>
 > Il existe plusieurs façons de résoudre ce problème. Vous pouvez d'abord essayer de fermer quelques onglets ou de désactiver temporairement les extensions que vous n'utilisez pas. Vous pouvez également vider le cache et les cookies de Chrome pour voir si cela améliore les performances.
 
 3. And a custom test about TURN/Jitsi:

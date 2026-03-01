@@ -4,6 +4,7 @@ subtitle: On the Canadian road.
 date: 2016-11-06
 tags: ["quebec", "logs"]
 bigimg: [{src: "/img/logs/quebec/roadtrip/mv2_3.JPG", desc: "Coucher de soleil"}, {src: "/img/logs/quebec/roadtrip/jc20.jpg", desc: "Autumn"}]
+comments: true
 ---
 
 ## Jour 1
@@ -37,7 +38,7 @@ Après le repas, on retrouve des paysages sympathiques et sur la route on se ren
   {{< figure src="/img/logs/quebec/roadtrip/mv2_22.JPG" caption="Roadtrip" >}}
 {{< /gallery >}}
 
-Puis on repart chez nous. En passant devant un lac très joli avec un chalet dessus. On se gare chez quelqu'un pour prendre des photos. La propriétaire nous invite à prendre les photos de son ponton personnel (merci à elle) pour avoir un meilleur point de vue.  
+Puis on repart chez nous. En passant devant un lac très joli avec un chalet dessus. On se gare chez quelqu'un pour prendre des photos. La propriétaire nous invite à prendre les photos de son ponton personnel (merci à elle) pour avoir un meilleur point de vue.
 Fin du road trip jour 1. PS : Ford berline F meilleur 4x4 ever.
 
 {{< gallery caption-effect="fade" >}}

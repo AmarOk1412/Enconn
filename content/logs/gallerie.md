@@ -4,6 +4,7 @@ subtitle: Quelques unes de mes créations 2D.
 date: 2014-07-31
 tags: ["drawing", "logs"]
 bigimg: [{src: "/img/logs/quebec/galerie/_min.jpg", desc: "Chat"}]
+comments: true
 ---
 
 ![Alice](/img/logs/galerie/alice.png)

@@ -4,6 +4,7 @@ subtitle: TURN over TCP (RFC 6062)
 date: 2019-06-01
 tags: ["p2p", "dev"]
 bigimg: [{src: "/img/dev/p2p_rfc6062/banner.jpg"}]
+comments: true
 ---
 
 I love distributed systems for a various of reasons. But these systems are complex and require interactions with many layers. Even if a lot of distributed systems and software exists, such systems can be difficult to use for several reasons. Today, our operating systems tend to avoid doing as many calculations as possible (i.e. mobile devices need to save battery and avoid data consumption). Also, IPv4 is still massively used so NATs are still needed, interfaces are mainly created to interact with servers, etc. This is why I want to explain some common problems we can encounter when creating a peer to peer system and to describe existing solutions.
@@ -48,5 +49,5 @@ If Bob's client accepts the connection, it will initiate a new connection to the
 If you want to dig the subject, here is some links:
 
 + I wrote how the file sharing feature works in [Jami](https://jami.net) and how to setup a *TURN* server here: https://git.jami.net/savoirfairelinux/ring-project/wikis/tutorials/file-transfer
-+ Coturn is a easy to setup *TURN* server: https://github.com/coturn/coturn 
++ Coturn is a easy to setup *TURN* server: https://github.com/coturn/coturn
 + RFC 6062 will be supported in PJProject 2.9 (https://trac.pjsip.org/repos/ticket/2197, https://github.com/pjsip/pjproject/commit/fa6616c43c7e19797084f4e02a67d1fb6fd99473)

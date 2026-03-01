@@ -4,6 +4,7 @@ subtitle: Pour un petit week-end tranquille
 date: 2019-10-01
 tags: ["quebec", "logs"]
 bigimg: [{src: "/img/logs/quebec/grands-jardins/gj.jpg", desc: "Grands Jardins"}, {src: "/img/logs/quebec/grands-jardins/gj5.jpg", desc: "Grands Jardins"}]
+comments: true
 ---
 
 Si un jour vous traînez sur la côte Ouest du Saint Laurent, entre Tadoussac et Québec se trouve un petit parc très sympathique pour le temps d'un week end : le Parc National des Grands Jardins. Ce parc propose diverses activités (dont de la Via Ferrata pour les amateurs ou du Kayak).

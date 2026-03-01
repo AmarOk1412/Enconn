@@ -4,6 +4,7 @@ subtitle: ICE (RFC 6544, RFC 8445)
 date: 2019-09-03
 tags: ["p2p", "dev"]
 bigimg: [{src: "/img/dev/p2p_ice/banner.jpg"}]
+comments: true
 ---
 
 In the [first article](/blog/p2p-internals-rfc6062/) of this series, we saw how to make an application (*DEL*) which is able to transfer a file from one peer to one another by successfully bypassing the NAT thanks to a TURN server. However, this technique is not really effective, because, in a lot of cases, a TURN server is completely useless. Indeed, if both peers are on the same network or both peers has an IPv6 address, the TURN server is not mandatory. Now, *Alice* wants to improve *DEL* to only use the TURN server as a fallback.

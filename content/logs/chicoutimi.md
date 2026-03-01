@@ -3,6 +3,7 @@ title: Chicoutimi
 subtitle: Emménagement pour 10 mois
 date: 2016-08-30
 tags: ["quebec", "logs"]
+comments: true
 ---
 
 ## Arrivée

@@ -3,6 +3,7 @@ title: Chronique du libre n°2
 subtitle:  Le Mozilla Science Lab
 date: 2016-05-28
 tags: ["chronique-du-libre", "mozilla", "science"]
+comments: true
 ---
 
 Tout le monde connait Mozilla grâce à Firefox mais les projets de l'organisation ne se limitent pas à un navigateur. La [mission](https://www.mozilla.org/fr/mission/) de Mozilla est de promouvoir l’ouverture, l’innovation et la bonne santé du Web. La Fondation Mozilla propose des programmes pour mapper ces valeurs à la science, les médias, à la politique ou l'éducation afin de les rendre ouverts, collaboratifs et partageables.
@@ -69,7 +70,7 @@ De plus, l'open science permet à des personnes de différents environnements de
 
 Enfin, le web peut permettre d'améliorer la façon dont la recherche se fait aujourd'hui (par exemple pour éliminer les goulots d'étranglement que représente la perte de temps apportée par la rétroingénierie d'une expérience, la perte financière causée par un manque de données, une mauvaise gestion et par les projets qui ont besoin de repartir de zéro).
 
-Pour conclure cet article, je vous propose une citation d'Isaac Newton que m'a cité [Madeleine Bonsma](http://madeleinebonsma.com/) pour définir son point de vue de l'open science :  
+Pour conclure cet article, je vous propose une citation d'Isaac Newton que m'a cité [Madeleine Bonsma](http://madeleinebonsma.com/) pour définir son point de vue de l'open science :
 > Si j'ai vu plus loin, c'est en montant sur les épaules de géants.
 
 # Pour aller plus loin

@@ -4,6 +4,7 @@ subtitle: Nova-Scotia me voilà
 date: 2018-09-10
 tags: ["canada", "voyage", "logs"]
 bigimg: [{src: "/img/logs/nova-scotia/peggyscove.jpg", desc: "Peggy's Cove"}, {src: "/img/logs/nova-scotia/cabot.jpg", desc: "Le cabot trail"}]
+comments: true
 ---
 
 

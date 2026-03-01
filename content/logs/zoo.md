@@ -4,6 +4,7 @@ subtitle: Rencontres animales
 date: 2016-11-28
 tags: ["quebec", "logs"]
 bigimg: [{src: "/img/logs/quebec/zoo-saint-felicien/z23.JPG", desc: "Grizzly"}, {src: "/img/logs/quebec/zoo-saint-felicien/z12.JPG", desc: "Tigre"}]
+comments: true
 ---
 
 À l'ouest du lac Saint-Jean il y a un Zoo Sauvage. une moitié du zoo est une partie sans cage (sauf pour la meute de loup), la seconde est plus classique. Voici quelques photos de la journée. On a été à une fromagerie prêt du Zoo. Le fromage n'existe pas ici (hors cheddar et fromage de chèvre). Mais la bière est pas mal :).

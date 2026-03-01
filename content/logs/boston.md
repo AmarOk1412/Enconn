@@ -3,6 +3,7 @@ title: Boston
 subtitle: Premiere ville des US
 date: 2018-07-01
 tags: ["us", "boston", "logs"]
+comments: true
 ---
 
 

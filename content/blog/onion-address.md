@@ -2,6 +2,7 @@
 title: This blog has a .onion address
 date: 2020-07-26
 tags: ["privacy"]
+comments: true
 ---
 
 This blog is also available via the Tor Browser. And have a [.onion](http://av6esbutl6fnanosaqbngwazxznyuntuo7pjdbxxr6rqbmngy76t3kqd.onion) address.onion

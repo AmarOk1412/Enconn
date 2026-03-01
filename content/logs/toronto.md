@@ -4,6 +4,7 @@ subtitle: En trois jours.
 date: 2016-12-30
 tags: ["quebec", "logs"]
 bigimg: [{src: "/img/logs/quebec/toronto/t9d3.jpg", desc: "Graffity Alley"}, {src: "/img/logs/quebec/toronto/t23.jpg", desc: "Vue de nuit"}, {src: "/img/logs/quebec/toronto/t14d3.jpg", desc: "Building"}]
+comments: true
 ---
 
 En décembre 2016, j'ai eu l'occasion de passer plusieurs jours dans la ville de Toronto et de visiter la plupart de ses endroits (sauf le hackerspace...)

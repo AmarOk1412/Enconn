@@ -3,6 +3,7 @@ title: ZMarkdown
 subtitle: The Markdown engine powering Zeste de Savoir.
 date: 2017-11-11
 tags: ["zds", "project", "web", "js"]
+comments: true
 ---
 
 # Description
