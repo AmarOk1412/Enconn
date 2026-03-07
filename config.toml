@@ -39,7 +39,3 @@ pygmentCodeFences = true
     name = "About"
     url = "about/"
     weight = 3
-
-[services]
-  [services.disqus]
-    shortname = 'amarok1412'
