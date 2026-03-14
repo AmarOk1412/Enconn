@@ -18,6 +18,7 @@ pygmentCodeFences = true
   comments = false
   selfHosted = true
   useHLJS = true
+  math = true
 
 [Params.author]
   name = "Sébastien Blin"
@@ -39,3 +40,12 @@ pygmentCodeFences = true
     name = "About"
     url = "about/"
     weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
